@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/MullerRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <main class="main">
+      <section class="demo">
+  <div class="container">
+    <div class="demo__wrapper">
+      <div class="demo__content">
+        <h1 class="demo__title">Демо-версия</h1>
+        <p class="demo__text">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
+        <button class="btn-reset demo__btn">
+          <p>Попробовать бесплатно</p>
+          <img class="demo__btn-img" src="img/arrow.svg" alt="arrow.svg">
+        </button>
+      </div>
+      <div class="demo__img">
+        <img src="img/demo.jpg" alt="wheels">
+      </div>
+    </div>
+  </div>
+</section>
+
+      <div class="modal modal-call modal-form">
+  <form class="form modal__form" action="" method="">
+    <div class="modal__wrap">
+      <div class="modal__close">
+        <img src="img/x.svg" alt="close">
+      </div>
+      <div class="modal__content">
+        <h3 class="modal__title">Войти в систему</h3>
+        <div class="modal__input-wrap">
+          <input class="modal__item-input form__item-input--tel" type="tel" name="phone/email" placeholder="Email/Телефон" >
+          <input class="modal__item-input form__item-input--password" type="password" name="password" placeholder="Пароль">
+        </div>
+        <label class="modal__label modal__label-checkbox" required>
+          <input class="modal__checkbox" type="checkbox" required name="checkbox" data-validate-field="checkbox">
+          <span></span>
+          <p>Запомнить пароль</p>
+        </label>
+        <input class="btn-reset btn__restore" type="submit" value="Восстановить">
+      </div>
+      <button id="sign-in" class="btn-reset modal__btn btn__sign-in">Войти</button>
+      <button id="register" class="btn-reset modal__btn btn__register">Зарегестрироваться</button>
+    </div>
+  </form>
+</div>
+
+    </main>
+  </div>
+</body>
+
+</html>
